@@ -24,3 +24,4 @@ func CalcSquare(sideLen float64, sidesNum intCustomType) float64 {
 	default:
 		return 0
 	}
+}
