@@ -10,7 +10,7 @@ type intCustomType int
 var (
   SidesTriangle, SidesSquare, SidesCircle intCustomType = 3,4,0
 )
-const Pi = math.Pi
+const pi = math.Pi
 
 func CalcSquare(sideLen float64, sidesNum intCustomType) float64 {
 	switch sidesNum {
